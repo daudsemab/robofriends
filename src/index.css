@@ -11,6 +11,23 @@ body {
   justify-content: center;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(3, 19, 36, 0.9953023445706407);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffd000f3;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
